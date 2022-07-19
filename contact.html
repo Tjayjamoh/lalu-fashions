@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>lalu Fashions </title>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>lalu Fashions</title>
+    <link rel="stlesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?
+    family=poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+    <link:rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+   <body> 
+
+ <div class="container">
+     <div class="navbar">
+       <div class="logo">
+           <img src="images/lalu logo.png" width="125px">
+      </div>
+     <nav>
+          <ul id="menuItems">
+               <li><a href="INDEX.HTML">home</a></li>
+               <li> <a href="product.html">products</a></li>
+               <li> <a href="contact.html">contact</a></li>
+               
+           </ul>
+     </nav>
+     <img src="https://media.istockphoto.com/vectors/
+     shopping-car…on-white-background-vector-id1206806317?s=612x612"
+      width="30px"heigh="30px">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEA…AAAAAAAAAAAAAAAD4T74AYhs1O+vt3ioAAAAASUVORK5CYII="
+       class="menu-icon" onclick="menutoggle()">
+       </div>
+  </div>
+  <!------contact page------>
+  <section>
+    <div class="container">
+        <form action="https://formspree.io/f/xvoldyvr" method="post">
+
+            <div class="form-group">
+                <label for="Name">Name</label>
+                <input type="text" id="Name" name="Name">
+            </div>
+            <div class="form-group">
+                <label for="phone no.">phone no.</label>
+             <input type="text" id="phone" name="Phone.no">
+            </div>
+            <div class="form-group">
+                <label for="Email Address">Email Address</label>
+                <input type="email" id="email" name="Email Address">
+            </div>
+            <div class="form-group">
+                <label for="product">product name</label>
+                <input type="text" id="product" name="product">
+            </div>
+            <div class="form-group">
+                <label for="input number">No.of Products</label>
+                <input type="number" value="1" name="number">
+            </div>
+            <div class="form-group">
+                <label for="input size">veiw available sizes</label>
+                
+              <select>
+                <option>Tap Here</option>
+                <option>XXXL</option>
+                <option>XXL</option>
+               <option>Large</option>
+                <option>medium</option>
+                <option>small</option>
+            </select>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="size">input size</label>
+                <input type="text" id="size" name="size">
+            </div>
+            
+            <div class="form-group">
+                <button type="submit">Message</button>
+            </div>
+        </form>
+    </div>
+   </section>  
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <!-----footer------>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Our Purpose Is To Make You Fill Well Dressed</h3>
+                    <br>
+                    <p>THANKS ! FOR SHOPPING WITH US</p>
+                    <div class="footer-col-2">
+                        <h3>follow us on </h3>
+                        <ul>
+                            <li> Instagram</li> 
+                            <li>facebook</li>
+                            <li>tiktok</li>
+                            <li>Youtube</li>
+
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-----------js for toggle menu------------> 
+<script>
+    var menuItems=document.getElementById("menuItems");
+    menuItems.style.maxHeight="0px"
+    function menutoggle(){
+        if(menuItems.style.maxHeight=="0px"){
+            menuItems.style.maxHeight="200px"
+        }
+        else
+        {
+            menuItems.style.maxHeight="0px"
+        }
+    }
+</script>  
+</body>
+</html>      
